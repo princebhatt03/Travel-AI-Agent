@@ -88,14 +88,14 @@ You need to rename them to `.env` and fill in your details.
 
 ### 🧠 Server (`/server/.env.example`)
 ```bash
-PORT=5000
+PORT=3000
 MONGO_URI=your_mongodb_connection_string
 OPENAI_API_KEY=your_openai_api_key
 ```
 
 💻 Client (/client/.env.example)
 ```bash
-VITE_API_URL=http://localhost:5000
+VITE_API_URL=http://localhost:3000
 ```
 
 ### 🧩 Installation & Usage Guide
